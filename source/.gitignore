@@ -1,8 +1,8 @@
 *.suo
 *.v11.suo
-DriveStamper.Business\bin\*
-DriveStamper.Business\obj\*
-DriveStamper.Entities\bin\*
-DriveStamper.Entities\obj\*
-DriveStamper.UI\bin\*
-DriveStamper.UI\obj\*
+DriveStamper.Business/bin
+DriveStamper.Business/obj
+DriveStamper.Entities/bin
+DriveStamper.Entities/obj
+DriveStamper.UI/bin
+DriveStamper.UI/obj
