@@ -1,0 +1,52 @@
+; InstallSimple project
+
+[Setup]
+WindowTitle=Drive Stamper
+ProductName=Drive Stamper
+
+[Graphics]
+SplashScreen=
+SplashScreenDelay=3
+Header=
+HeaderJustify=Right
+HeaderFontColor=0
+WizardBitmap=
+WizardFontColor=0
+
+[FirstMessage]
+Drive Stamper is a tool for detecting and pushing files to removable storage as they are connected to your system (automatically or manually).
+
+For more information, see:
+http://instantiatorgratification.blogspot.co.uk/2011/10/drive-stamper.html
+
+[LastMessage]
+Thank you checking out Drive Stamper. You are free to use it as you wish, tinker or redistribute. Please link back to or credit the original post if you redistribute Drive Stamper or any derivative of it.
+
+http://instantiatorgratification.blogspot.co.uk/2011/10/drive-stamper.html
+
+[LicenseAgreement]
+Feel free to tinker, redistribute, and use Drive Stamper as you wish.
+
+Please link back to the original post if you redistribute Drive Stamper or any derivative of it:
+http://instantiatorgratification.blogspot.co.uk/2011/10/drive-stamper.html
+
+[SetupFiles]
+SourceFolder=C:\src\drive-stamper\source\DriveStamper.UI\bin\Debug
+SpecialFolder=Program Files
+SetupPath=DriveStamper
+
+[Shortcuts]
+ProgramGroup=Drive Stamper
+DriveStamper.UI.exe=dmp
+Uninstall.exe=p
+
+[Registry]
+
+[Requirements]
+OperatingSystem=WinAll
+NetFramework=0
+NetFrameworkLink=http://www.microsoft.com/en-us/download/details.aspx?id=17718
+AdminRights=0
+
+[AfterInstalling]
+Reboot=0
